@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Uncontrolled from "./components/Uncontrolled";
 
 export default function App() {
   // create states
@@ -60,6 +61,7 @@ export default function App() {
 
   return (
     <section>
+      <Uncontrolled />
       <h2>DEV SKILLS</h2>
       <hr />
       {skills.map((s) => (
